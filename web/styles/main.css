@@ -1,0 +1,12 @@
+
+html{
+    font: sans-serif;
+     
+}
+a:hover{
+    color: green;
+}
+li{
+    line-height: 2em;
+    
+}
