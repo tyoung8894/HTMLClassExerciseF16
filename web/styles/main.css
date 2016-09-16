@@ -1,6 +1,7 @@
 
 html {
     font-family: sans-serif;
+    background-image: url("images/bats.gif")
 }
 
 h1,
@@ -52,3 +53,16 @@ a:hover {
 li {
     line-height: 2em; 
 }
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    width: 800px;
+    background-color: white;
+    border: 2px solid black ;
+    box-shadow: 2px 2px 2px 2px black;
+    
+ 
+}
+
+
