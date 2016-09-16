@@ -1,8 +1,28 @@
 
-html{
-    font: sans-serif;
+html {
+    font-family: sans-serif;
+    color: blue;
      
 }
+h1,h2,h3,h4,h5,h6 {
+    font-size-adjust: 1.5;
+    
+}
+h1.first:first-letter {
+    font-size: 3em;
+    
+}
+img {
+    float:left;
+}
+.headerfirst{
+    color:orange;
+    text-indent: 300px;
+}
+p {
+   color: green;
+}
+
 a:hover{
     color: green;
 }
