@@ -1,7 +1,9 @@
 
 html {
     font-family: sans-serif;
-    background-image: url("images/bats.gif")
+    background-image: url("../images/bats.gif");
+    background-repeat: repeat;
+    height: 100%;
 }
 
 h1,
@@ -13,8 +15,13 @@ h6 {
     font-size-adjust: 1.1; 
 }
 
+h1.first {
+    margin-top: 0.5%;
+}
+
 h1.first:first-letter {
     font-size: 3em;
+    margin-left: 1.5%;
 }
     
 img {
@@ -22,24 +29,17 @@ img {
 }
 
 .headerfirst {
-    color:orange;
-    font-style: italic;
     text-indent: 1.5%;
-    text-shadow: 3px 3px black;
-}
+ }
 
 .headersecond {
     text-indent: 1.5%;
+    margin-top: -0.75%;
 }
 
 a {
     color: orange;
     font-weight: bold;   
-}
-
-footer {
-    font-size: 0.9em;
-    text-align: center;
 }
 
 img {
@@ -52,17 +52,53 @@ a:hover {
 
 li {
     line-height: 2em; 
+    margin-left: 1.5%;
 }
+
 body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     width: 800px;
     background-color: white;
-    border: 2px solid black ;
-    box-shadow: 2px 2px 2px 2px black;
-    
- 
+    border: 1px solid black;
+    box-shadow: 2px 8px 5px 2px black;
 }
+
+header {
+    background-image: linear-gradient(45deg, white, orange 75%, black);
+    background-color: orange;
+    margin: 0;
+    height: 100%;
+    padding: 8px;
+    border-bottom: 2px solid black;
+}
+
+footer {
+    font-size: 0.9em;
+    text-align: center;
+    background-image: linear-gradient(45deg, black, orange 25%, white);
+    background-color: orange;
+    height: 100%;
+    margin: 0;
+    padding: 25px;
+    border-top: 2px solid black;
+}
+
+p {
+    margin-left: 1.5%;
+    margin-top: -1%;
+}
+
+h2 {
+    margin-left: 1.5%;
+}
+h3 {
+    margin-left: 1.5%;
+}
+
+
 
 
