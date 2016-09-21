@@ -24,26 +24,27 @@ h1.first:first-letter {
     margin-left: 1.5%;
 }
     
-img {
-    float:left;
+
+.pumpkin {
+    margin-top: 1.5%;
+    float: left;
 }
 
 .headerfirst {
     text-indent: 1.5%;
+    margin-top: 1%;
+    margin-left: 12%;
  }
 
 .headersecond {
     text-indent: 1.5%;
-    margin-top: -0.75%;
+    margin-top: 1.5%;
+    margin-left: 12%;
 }
 
 a {
     color: orange;
     font-weight: bold;   
-}
-
-img {
-    float:left;
 }
 
 a:hover {
