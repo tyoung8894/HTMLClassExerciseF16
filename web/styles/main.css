@@ -51,9 +51,24 @@ a:hover {
     color: green;
 }
 
-li {
-    line-height: 2em; 
-    margin-left: 1.5%;
+ul,li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li a {
+    display: block;
+    width: 8em;
+   
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    line-height: 2em;
+    padding: .2em 0 .5em 1em;
+    border: .07em solid black;
+    
 }
 
 body {
