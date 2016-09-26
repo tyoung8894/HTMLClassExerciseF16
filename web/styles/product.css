@@ -128,7 +128,7 @@ h3 {
     float: left;
     left:2px;
     position:fixed;
-    top: 12.5em;
+    top: 10em;
     width: 180px;
 }
 
@@ -170,14 +170,14 @@ h3 {
 }
 
 p {
-    float:right;
+    float:left;
 }
 
 #rightsidebar {
     background-color: #F5DEB3;
-    margin-right: -185px;
+    margin-right: -179.5px;
+    margin-top: -299px;
     float:right;
-    color:black;
     width: 180px;
     top: 8em;
     left: 30em;
@@ -185,12 +185,31 @@ p {
 }
 
 
-
-.catcontent a {
-    float:left;
-}
-
 .rightsidebarlistitem, .rightsidebarunorderedlist{
     list-style: none;
 
+}
+
+.rightsidebarlistitem a {
+    color:black;
+}
+
+.catimage {
+    float:left;
+}
+
+.rightsidebarlistitem a:hover {
+    color:green;  
+}
+
+.rightsidebarlistitem a:focus {
+    color:green;
+}
+
+.rightsidebarlistitem a:visited {
+    color:black;
+}
+
+ul.horizontalbar {
+    margin-top: -50px;
 }
