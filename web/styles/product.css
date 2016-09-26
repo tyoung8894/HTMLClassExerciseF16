@@ -175,19 +175,16 @@ p {
 
 #rightsidebar {
     background-color: #F5DEB3;
+    float:right;
+    left: 30em;
     margin-right: -179.5px;
     margin-top: -299px;
-    float:right;
-    width: 180px;
     top: 8em;
-    left: 30em;
-    
+    width: 180px; 
 }
-
 
 .rightsidebarlistitem, .rightsidebarunorderedlist{
     list-style: none;
-
 }
 
 .rightsidebarlistitem a {
