@@ -191,3 +191,44 @@ h3 {
 .horizontallistitem a:active {
     color:orange;
 }
+
+.productlistheader{
+    font-size: 1.5em;
+    margin-left: 210px;
+}
+
+.Props,
+.Costumes,
+.SpecialEffects,
+.Masks {
+    font-weight: bold;
+    padding-right: 100px;
+}
+
+th {
+    text-align: left;   
+}
+
+.Middle {
+    padding-right: 80px;
+}
+
+.third {
+    background-color: #F5DEB3;
+}
+
+table {
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.productlist {
+    color:orange;
+}
+
+td a {
+    color:black;
+}
+
+
+
