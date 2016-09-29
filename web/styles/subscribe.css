@@ -4,7 +4,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : Sep 26, 2016, 10:19:43 AM
+    Created on : Sep 29, 2016, 6:44:55 PM
     Author     : tyoung12
 */
 
@@ -123,6 +123,7 @@ h3 {
 
 #content {
     float: right;
+    height: 195px;
     width: 640px;
 }
 
@@ -180,64 +181,10 @@ h3 {
 }
 
 p {
-    margin-left: 25px;
-}
-
-label, input {
-    display:block;
-    padding-bottom: -5px;
-}
-
-label {
-    margin-bottom: 10px; 
-    margin-right: 100px;
-    float: left;
-    text-align: left;
-}
-
-input[type="text"] {
-    width: 350px;
-}
-
-input[type="email"] {
-    width: 350px;
-}
-
-#submit {
-    display: block;
-    margin-right: 150px;
-    background-color: orange;
-    border:black;
-}
-
-#email {
-    margin-left: 145px;
-    
-}
-
-.emailtext {
-    margin-left: 59px;
-    margin-top: -10px;
-}
-
-.zipcodetext {
-    margin-left: 35px;
-    margin-top: -10px;
-}
-
-.lastnametext {
-    margin-top: -10px;
-}
-
-.contentheader {
     margin-left: 20px;
-}
-
-.firstnametext {
-    margin-left: 24px;
-}
-
-.subscribebutton {
-    margin-left: 204px;
     margin-top: -10px;
+}
+
+.thankyou {
+    margin-left: 20px;
 }
