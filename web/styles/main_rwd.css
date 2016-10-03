@@ -208,8 +208,45 @@ h3 {
 }
 
 @media only screen and (max-width: 767px) {
+    .js .horizontalbar {
+        display: none;
+    }
     
+    .js .slicknav_menu {
+        display: block;
+    }
+    
+    .horizontalbar {
+        display:none;
+    }
+    
+    .container {
+        
+    }
+    
+    #content {
+        width: 100%;
+        margin-bottom: 150px;
+    }
+    
+    #sidebar {
+        margin-left: 275px;
+        margin-top: 500px;
+    
+    }
 }
+
+@media only screen and (max-width: 479px) {
+    .headerfirst .headersecond {
+        font-size: 50%;
+    }
+    
+    .first .second .productofweek .myguarantee {
+        font-size: 50%;
+    }
+}
+
+
 
 
 
