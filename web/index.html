@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="styles/slicknav.css">
   <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
   <script src="js/jquery.slicknav.min.js"></script>
-  <script>
-      $(function(){
-          $('.horizontalbar').slicknav();
+  <script type="text/javascript">
+      $(document).ready(function () {
+          $('#nav_menu').slicknav({prependTo: "#mobile_menu"});
       });
       </script>
 </head>
@@ -31,7 +31,8 @@
         </div>
        
     <main>
-        
+        <nav id ="mobile_menu"></nav>
+        <nav id="nav_menu">
       <ul class = "horizontalbar">
         <li class="horizontallistitem"><a href="index.html" title="Home Page" class="current"> Home</a></li>
         <li class ="horizontallistitem"><a href="Productlist.html" title="Product List Page"> Product
@@ -40,7 +41,7 @@
         <li class ="horizontallistitem"><a href="Decoratingideas.html" title="Decorating ideas page">Decorating ideas</a></li>
         <li class ="horizontallistitem"><a href="Joinemail.html" title="Join Email Page"> Join Email</a></li>            
           </ul>
-        
+        </nav> 
         <div id="content">
         <article>
             

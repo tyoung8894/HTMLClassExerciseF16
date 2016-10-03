@@ -147,7 +147,7 @@ h3 {
     clear:both;
 }
 
-.horizontalbar, .horizontallistitem{
+.horizontalbar, .horizontallistitem {
     background:black;
     float: left;
     list-style: none;
@@ -155,11 +155,11 @@ h3 {
     padding:0;    
 }
 
-.horizontallistitem{
+.horizontallistitem {
    display:inline-block;
 }
 
-.horizontallistitem a{
+.horizontallistitem a {
     background: black;
     color:white;
     display:block;
@@ -169,12 +169,12 @@ h3 {
     width:10em;  
 }
 
-.second{
+.second {
     margin-top: -4%;
     text-indent: 1.1%;
 }
 
-.catlink{
+.catlink {
     margin-right: 1.25em;
     text-align: left;
 }
@@ -207,19 +207,27 @@ h3 {
     }
 }
 
+#mobile_menu {
+    display: none;
+}
+
 @media only screen and (max-width: 767px) {
-    .js .horizontalbar {
-        display: none;
+    #nav_menu {display: none;
     }
     
-    .js .slicknav_menu {
-        display: block;
+    #mobile_menu {display:block;
     }
     
-    .horizontalbar {
-        display:none;
+    .slicknav_menu {
+        background-color: black !important; 
     }
-   
+    
+    body {
+        width: 100%;
+        margin: 0;
+        border: none;
+    }
+ 
     #content {
         width: 100%;
         margin-bottom: 9.375em;
