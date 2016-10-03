@@ -138,7 +138,7 @@ h3 {
     float: left;
     left:0.125em;
     position:fixed;
-    top: 12.5em;
+    top: 15.7em;
     width: 11.25em;
 }
 
@@ -192,7 +192,7 @@ h3 {
 }
 
 .catpicture {
-    max-width: 154px;
+    max-width: 9.625em;
     width: 100%;
 }
 
@@ -219,20 +219,15 @@ h3 {
     .horizontalbar {
         display:none;
     }
-    
-    .container {
-        
-    }
-    
+   
     #content {
         width: 100%;
-        margin-bottom: 150px;
+        margin-bottom: 9.375em;
     }
     
     #sidebar {
-        margin-left: 275px;
-        margin-top: 500px;
-    
+        margin-left: 18em;
+        margin-top: 30.5em;  
     }
 }
 
